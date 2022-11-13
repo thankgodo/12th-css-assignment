@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(193, 193, 192);
+}
+
+.container{
+    width: 70%;
+    height: 100vh;
+    margin-left: 12em;
+    margin-top: 1em;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 1em;
+}
+
+/* for the side block */
+.feedback{
+    width: 25%;
+    height: 45vh;
+    margin-left: 5em;
+}
+
+.bar1{
+    width: 100%;
+    height: 17vh;
+    background-color: blue;
+    background-image: linear-gradient(to right, blue, purple , red);
+    padding: 3em 1em;
+    margin-bottom: 8px;
+    border-radius: 5%;
+    color: white;
+}
+.bar2{
+    background-color: white;
+    width: 100%;
+    height: 17vh;
+    margin-bottom: 8px;
+    border-radius: 5%;
+}
+.butt1 button{
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 4px 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(233, 238, 242);
+}
+.butt2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px;
+}
+.butt2 button{
+    padding: 4px 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(233, 238, 242);
+}
+
+.butt3{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-left: 10px;
+}
+.butt3 button{
+    padding: 4px 8px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(233, 238, 242);
+}
+
+
+.bar3{
+    background-color: white;
+    width: 100%;
+    height: 17vh;
+    margin-bottom: 8px;
+    border-radius: 5%;
+}
+.roadmap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+}
+.plan1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    color: rgb(191, 184, 184);
+}
+.plan2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    color: rgb(191, 184, 184);
+}
+.plan3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    color: rgb(191, 184, 184);
+}
+
+
+/* for the main block */
+.suggest{
+    width: 78%;
+    height: 85vh;
+    /* background-color: yellow; */
+    margin: 0 1em;
+}
+
+.row1{
+    background-color: rgb(77, 70, 70);
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.row1 ul {
+    width: 50%;
+    height: 8vh;
+    font-size: small;
+    color: white;
+    margin: 1em;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.row1 button{
+    width: 20%;
+    height: 6vh;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: purple;
+}
+.row1 ul span{
+    font-weight: 900;
+}
+.row2{
+    background-color: white;
+    width: 100%;
+    height: 13vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+}
+.row2 ul{
+    width: 100%;
+    height: 12vh;
+    font-size: small;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row2 ul li{
+    margin-left: 2em;
+}
+
+.row2 ul li button{
+    padding: 6px;
+    border: none;
+    background-color: rgba(229, 222, 222, 0.82);
+} 
+.row2 ul li i{
+    width: 40px;
+    margin: 0 1em 0 18em;
+    color: gray;
+} 
+
+
+.row3{
+    background-color: white;
+    width: 100%;
+    height: 13vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+}
+.row3 ul{
+    width: 100%;
+    height: 12vh;
+    font-size: small;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row3 ul li{
+    margin-left: 2em;
+}
+
+.row3 ul li button{
+    padding: 6px;
+    border: none;
+    background-color: rgba(229, 222, 222, 0.82);
+} 
+.row3 ul li i{
+    width: 40px;
+    margin: 0 1em 0 8em;
+    color: gray;
+} 
+
+
+.row4{
+    background-color: white;
+    width: 100%;
+    height: 13vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+}
+.row4 ul{
+    width: 100%;
+    height: 12vh;
+    font-size: small;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row4 ul li{
+    margin-left: 2em;
+}
+
+.row4 ul li button{
+    padding: 6px;
+    border: none;
+    background-color: rgba(229, 222, 222, 0.82);
+} 
+.row4 ul li i{
+    width: 40px;
+    margin: 0 1em 0 12em;
+    color: gray;
+} 
+
+
+.row5{
+    background-color: white;
+    width: 100%;
+    height: 13vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+}
+.row5 ul{
+    width: 100%;
+    height: 12vh;
+    font-size: small;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row5 ul li{
+    margin-left: 2em;
+}
+
+.row5 ul li button{
+    padding: 6px;
+    border: none;
+    background-color: rgba(229, 222, 222, 0.82);
+} 
+.row5 ul li i{
+    width: 40px;
+    margin: 0 1em 0 10em;
+    color: gray;
+} 
+
+
+.row6{
+    background-color: white;
+    width: 100%;
+    height: 13vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+}
+.row6 ul{
+    width: 100%;
+    height: 12vh;
+    font-size: small;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row6 ul li{
+    margin-left: 2em;
+}
+
+.row6 ul li button{
+    padding: 6px;
+    border: none;
+    background-color: rgba(229, 222, 222, 0.82);
+} 
+.row6 ul li i{
+    width: 40px;
+    margin: 0 1em 0 18em;
+    color: gray;
+} 
+
+
+.row7{
+    background-color: white;
+    width: 100%;
+    height: 13vh;
+    margin-bottom: 8px;
+    border-radius: 3%;
+}
+.row7 ul{
+    width: 100%;
+    height: 12vh;
+    font-size: small;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.row7 ul li{
+    margin-left: 2em;
+}
+
+.row7 ul li button{
+    padding: 6px;
+    border: none;
+    background-color: rgba(229, 222, 222, 0.82);
+} 
+.row7 ul li i{
+    width: 40px;
+    margin: 0 1em 0 13em;
+    color: gray;
+} 

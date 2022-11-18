@@ -527,12 +527,17 @@ body{
 
 
     @media screen and (max-width: 390px) {
+       body{
+        margin: 0;
+        padding: 0;
+       }
         .container{
+            padding: 0;
+            margin-right: 5px;
             width: 100%;
             height: auto;
             display: grid;
             grid-template-columns: 1fr;
-            
         }
 
         .feedback{

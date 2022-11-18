@@ -41,13 +41,14 @@ body{
 .bar2{
     background-color: white;
     width: 100%;
-    height: 17vh;
+    height: 18vh;
     margin-bottom: 8px;
     border-radius: 5%;
 }
 .butt1 button{
     width: 25%;
-    display: inline-flex;
+    display: inline-block;
+    font-size: 18px;
     justify-content: space-between;
     padding: 4px 8px;
     margin: 5px;
@@ -59,7 +60,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 4px;
+    padding: 4px 6px;
 }
 .butt2 button{
     padding: 4px 8px;
@@ -87,7 +88,8 @@ body{
 .bar3{
     background-color: white;
     width: 100%;
-    height: 17vh;
+    height: 18vh;
+    padding: 2px;
     margin-bottom: 8px;
     border-radius: 5%;
 }
@@ -101,7 +103,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px 20px;
+    margin: 10px 20px;
     color: rgb(191, 184, 184);
 }
 .plan2{
@@ -524,185 +526,122 @@ body{
     /* MOBILE DEVICE */
 
 
-    @media screen and (max-width: 360px) {
-    
+    @media screen and (max-width: 390px) {
         .container{
-            /* background-color: red; */
             width: 100%;
-            height: 120vh;
-            margin: 0;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            
         }
-        
+
         .feedback{
-            /* background-color: rgb(226, 70, 43); */
-            width: 35%;
-            height: 60vh;
-            margin: 0 1px;
-            padding: 0rem;
-        }
-        .sidebar{
-            width: 100%;
-            margin-left: 0px;
-        }
-        .bar1{
-            height: 13vh;
-            
-        }
-        .bar2{
-            height: 15vh;
-            padding: 0px;
-            /* background-color: greenyellow; */
-        }
-        .butt1 button{
-            width: 25%;
-            padding: 5px;
-            margin: 10px 2px;
-           
-            /* background-color: rgb(255, 47, 47); */
-            
-        }
-        .butt2 button{
-            width: 80%;
-            padding: px;
-            margin: 1px 2px;
             display: flex;
-            justify-content: space-between;
-           
-            /* background-color: rgb(255, 47, 47); */
-            
+            width: 88%;
+            height: 58vh;
+            margin: 0 1rem;
         }
-        .butt3 button{
-            width: 80%;
-            padding: 0px;
-            margin: 0px 2px;
-           
-            /* background-color: rgb(255, 47, 47); */
-            
-        }
-        .bar3{
-            height: 15vh;
-            margin-top: 10px;
-    
-        }
-        .suggest{
-            /* background-color: rgb(43, 0, 255); */
-            width: 70%;
-            height: 118vh;
-            margin: 0 6px;
-            /* background-color: aqua; */
-        }
-
-        .mainbar ul li{
-            margin-top: 3em;
-            margin-left: 1em;
-            font-size: 12px;
-            line-height: 15px;
-        }
-        .mainbar ul li p{
-            width: 8em;
-        }
-        .row1{
-            /* background-color: red; */
+        .sidebar {
             width: 100%;
-            height: 10vh;
+            margin: 0;
+        }
+        .bar2 {
+            height: 20vh;
+            margin: 0;
+        }
+        .butt1 {
+            display: flex;
+            justify-content: space-around;
+        }
+        .butt2 {
+            display: flex;
+            justify-content: space-around;
+        }
+        .butt3 {
+            display: flex;
+            padding: 1em;
+        }
+        .butt1>button {
+            padding: 10px;
+        }
+        .butt2>button {
+            padding: 10px;
+        }
+        .butt3>button {
+            padding: 10px;
+        }
+        .bar3 {
+            /* background-color: azure; */
+            height: 20vh;
         }
 
-        .row2>ul>li>h3 {
-            padding: 3px;
-            margin: 0;
-            background-color: rgb(224, 230, 230);
+        .suggest {
+            width: 88%;
+            height: auto;
+        }
+        .row1 {
+            width: 100%;
+            height: 13vh;
         }
         .row2 {
-            /* background-color: red; */
+            /* background-color: aquamarine; */
             width: 100%;
-            height: 16vh;
+            height: 15vh;
+            padding: 10px;
         }
-    
-        .row2 ul li i{
-            width: 30px;
-            margin: 0;
-            color: gray;
-        } 
-
-        .row3>ul>li>h3 {
-            padding: 3px;
-            margin: 0;
-            background-color: rgb(224, 230, 230);
+        .row2>ul>li>p {
+            /* background-color: yellow; */
+            width: 240px;
         }
-
-       .row3{
-            /* background-color: red; */
+        .row3 {
+            /* background-color: aquamarine; */
             width: 100%;
-            height: 16vh;
+            height: 15vh;
+            padding: 10px;
         }
-        .row3 ul li i{
-            width: 30px;
-            margin: 0;
-            color: gray;
-        } 
-        
-        .row4{
-            /* background-color: red; */
+        .row3>ul>li>p {
+            /* background-color: yellow; */
+            width: 240px;
+            
+        }
+        .row4 {
+            /* background-color: aquamarine; */
             width: 100%;
-            height: 16vh;
+            height: 15vh;
+            padding: 10px;
         }
-        .row4 ul li i{
-            width: 30px;
-            margin: 0;
-            color: gray;
+        .row4>ul>li>p {
+            /* background-color: yellow; */
+            width: 240px;
         }
-        
-        .row4>ul>li>h3 {
-            padding: 3px;
-            margin: 0;
-            background-color: rgb(224, 230, 230);
-        }
-
-        .row5{
-            /* background-color: red; */
+        .row5 {
+            /* background-color: aquamarine; */
             width: 100%;
-            height: 16vh;
+            height: 15vh;
+            padding: 10px;
         }
-        .row5 ul li i{
-            width: 30px;
-            margin: 0;
-            color: gray;
-        } 
-        .row5>ul>li>h3 {
-            padding: 3px;
-            margin: 0;
-            background-color: rgb(224, 230, 230);
+        .row5>ul>li>p {
+            /* background-color: yellow; */
+            width: 240px;
         }
-
-        .row6{
-            /* background-color: red; */
+        .row6 {
+            /* background-color: aquamarine; */
             width: 100%;
-            height: 16vh;
+            height: 15vh;
+            padding: 10px;
         }
-        .row6 ul li i{
-            width: 30px;
-            margin: 0;
-            color: gray;
-        } 
-        .row6>ul>li>h3 {
-            padding: 3px;
-            margin: 0;
-            background-color: rgb(224, 230, 230);
+        .row6>ul>li>p {
+            /* background-color: yellow; */
+            width: 240px;
         }
-
-        .row7{
-            /* background-color: red; */
+        .row7 {
+            /* background-color: aquamarine; */
             width: 100%;
-            height: 16vh;
+            height: 15vh;
+            padding: 10px;
         }
-        .row7 ul li i{
-            width: 30px;
-            margin: 0;
-            color: gray;
-        } 
-        .row7>ul>li>h3 {
-            padding: 3px;
-            margin: 0;
-            background-color: rgb(224, 230, 230);
+        .row7>ul>li>p {
+            /* background-color: yellow; */
+            width: 240px;
         }
-}
+    }
